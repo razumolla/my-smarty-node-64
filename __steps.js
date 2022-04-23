@@ -1,4 +1,6 @@
 /**
+ * Basic setup
+ * ------------
  * 1. create a folder (manually or mkdir)
  * 2. open command line to that folder
  * 3. npm init (yes all)
@@ -16,6 +18,18 @@
  * 5. app.listen(port,()=>{
         console.log('Listening to port', port)
     })
-* 6. run the app using command(node index.js)
-* 7. check your browser for that port > localhost:5000
- */
+ * 6. run the app using command(node index.js)
+ * 7. check your browser for that port > localhost:5000
+ * -----------
+ * get
+ * ----------
+ * 1. cors middleware
+ * 2. const cors = require('cors')
+ * 3. app.use(cors())
+ * 
+ *-------------
+    post
+ * ----------
+ * 1. app.use(express.json()) / middleware
+ * 
+ * */
